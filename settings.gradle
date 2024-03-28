@@ -1,0 +1,15 @@
+rootProject.name = 'zoom-out'
+
+// ZoomOut Components
+include 'zoomout-webapp'
+include 'zoomout-discovery'
+include 'zoomout-static-code-analyzer'
+include 'zoomout-model'
+
+// ZoomOut Store (Demo Project)
+include 'basket', 'customer', 'ordering', 'product', 'common-lib'
+project(':basket').projectDir = new File('demo/basket')
+project(':customer').projectDir = new File('demo/customer')
+project(':ordering').projectDir = new File('demo/ordering')
+project(':product').projectDir = new File('demo/product')
+project(':common-lib').projectDir = new File('demo/common-lib')

@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: customer
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/customer
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+  output:
+    ansi:
+      enabled: always
+
+server:
+  port: 9000
+
+logging:
+  level:
+    ROOT: info

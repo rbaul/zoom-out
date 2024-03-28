@@ -1,0 +1,9 @@
+zoom-out:
+  app-doc:
+    urls:
+      - http://localhost:9000/v1/zoom-out/app-doc
+      - http://localhost:9001/v1/zoom-out/app-doc
+      - http://localhost:9002/v1/zoom-out/app-doc
+      - http://localhost:9003/v1/zoom-out/app-doc
+    paths:
+      - /custom-ms-app-doc.json
